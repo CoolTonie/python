@@ -63,9 +63,9 @@ while True:
            print(name, 'wins!!')
            
     endgame = input("Would you like to play game? Y/N: \n")
-    ans=input()
+    
 
-    if exit=="N" or endgame =='n':
+    if endgame=="N" or endgame =='n':
         print('THANKS FOR PLAYING TONIES R/P/S GAME')
         break
 
