@@ -12,7 +12,7 @@ print('RULES OF THE GAME:\n'
 print('R.ROCK')
 print('P.PAPER')
 print('S.SCISSORS')
-# game = True
+
 while True:
     moves= ['rock', 'paper', 'scissors']
     pcoptions= random.choice(moves)
@@ -66,13 +66,5 @@ while True:
     
 
     if endgame=="N" or endgame =='n':
-        print('THANKS FOR PLAYING TONIES R/P/S GAME')
+        print('THANKS FOR PLAYING TONIES ROCK PAPER SCISSORS GAME')
         break
-
-    # print("Do you want to play again? (Y/N)")
-    # ans = input()
-    
-    
-    # if ans == 'n' or ans == 'N':
-    #     print("Thanks for playing TONIES GAME")
-    #     game= False
